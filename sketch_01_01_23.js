@@ -1,21 +1,24 @@
-x = 0;
-y = 0;
-s = 10;
 
 function setup() {
-  createCanvas(400, 400);
+    createCanvas(710, 400, WEBGL);
+  }
   
-}
-
-function draw() {
-  if (random() > 0.5) {
-    line (x, y, x+s, y+s);
-  } else{
-    line (x+s, y, x, y+s);
+  function draw() {
+    background(250);
+    normalMaterial();
+    translate(20, 30, 10);
+    push();
+    rotateZ(frameCount * 0.06);
+    rotateX(frameCount * 0.06);
+    rotateY(frameCount * 0.06);
+    torus(70, 20);
+    pop();
   }
-  x += s;
-  if(x >= width) {
-    x = 0;
-    y += s;
+  
+  function keyPressed() {
+    // this will download the first 5 seconds of the animation!
+    if (key === 's') {
+      saveGif('mySketch', 5);
+    }
   }
-}
+  
