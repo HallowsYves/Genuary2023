@@ -7,3 +7,6 @@ Prompt: Perfect loop
 
 January 02, 2023
 Prompt: Made in 10 Mins
+
+January 03, 2023
+Prompt: Glitch Art
