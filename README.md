@@ -10,3 +10,6 @@ Prompt: Made in 10 Mins
 
 January 03, 2023
 Prompt: Glitch Art
+
+January 04, 2023
+Prompt: Intersections
