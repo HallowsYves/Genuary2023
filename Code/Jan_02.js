@@ -18,7 +18,6 @@ function setup() {
   noStroke();
   frameRate(30);
   ellipseMode(RADIUS);
-  // Set the starting position of the shape
   xpos = width / 2;
   ypos = height / 2;
   
@@ -35,12 +34,9 @@ function setup() {
 function draw() {
   background(250);
 
-  // Update the position of the shape
   xpos = xpos + xspeed * xdirection;
   ypos = ypos + yspeed * ydirection;
 
-  // Test to see if the shape exceeds the boundaries of the screen
-  // If it does, reverse its direction by multiplying by -1
   if (xpos > width - rad || xpos < rad) {
     xdirection *= -1;
   }
@@ -52,7 +48,6 @@ function draw() {
 }
 
   function keyPressed() {
-    // this will download the first 5 seconds of the animation!
     if (key === 's') {
       saveGif('mySketch', 5);
     }
