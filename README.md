@@ -13,3 +13,6 @@ Prompt: Glitch Art
 
 January 04, 2023
 Prompt: Intersections
+
+January 05, 2023
+Prompt: Debug View
