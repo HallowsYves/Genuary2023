@@ -44,9 +44,6 @@ function draw() {
     p.pos.add(curl(p.pos.x / noiseScale, p.pos.y / noiseScale));
     point(p.pos.x, p.pos.y);
   }
-  
-  
-  
 }
 
 function genNoiseImg() {
