@@ -12,7 +12,7 @@ function setup() {
     let particle = new Object();
     particle.pos = createVector(random(width), random(height));
     particles.push(particle);
-    
+    frameRate(60);
   }
 }
 
@@ -31,15 +31,13 @@ function curl(x, y) {
   let cy = (n1 - n2) / (2 * EPSILON);
   
   return new createVector (cy, -cx); // rotate 90 
-  
-  
 }
 
 function draw() {
-  tint(255, 4);
+  tint(-40, 4);
   image(noiseImg, 0, 0);
-  strokeWeight(4); // particle size
-  stroke(200, 5, 0); // dot color
+  strokeWeight(6); // particle size
+  stroke(200, 0, 0); // dot color
   
   for(let i = 0; i <particles.length; i++) {
     let p = particles[i]; // pick a particle
@@ -69,3 +67,9 @@ function genNoiseImg() {
   }
   noiseImg.updatePixels();
 }
+
+function keyPressed() {
+    if (key === 's') {
+      saveGif('Jan_07', 10);
+    }
+  }
