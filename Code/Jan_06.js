@@ -43,13 +43,6 @@ function draw() {
   polygon(0, 0, 170, 30);
   fill(23);  
   polygon(0, 0, 160, 30);
-  
-  
-  
-  
-  
-  
-  
   pop();
   
   translate(-13, 70);
