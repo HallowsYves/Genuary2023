@@ -24,7 +24,12 @@ function draw() {
         (cos(b) * radius) / 4,
         cos(24 * a) * radius * sin(b)
       );
-      rotateY(frameCount * 0.05);
+      rotateY(mouseX * 0.01);
+      rotateX(mouseY * 0.01);
+      rotateZ(mouseY * 0.01);
+      
+      
+      
       
       if (j % 2 === 0) {
         box(30, 30);
