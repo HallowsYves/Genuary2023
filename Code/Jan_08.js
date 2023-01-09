@@ -27,10 +27,6 @@ function draw() {
       rotateY(mouseX * 0.01);
       rotateX(mouseY * 0.01);
       rotateZ(mouseY * 0.01);
-      
-      
-      
-      
       if (j % 2 === 0) {
         box(30, 30);
       } else {
