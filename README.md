@@ -27,3 +27,6 @@ Ref: https://images.genius.com/79c6343980b4513f2c46813301da0dec.1000x1000x1.png
 
 January 08, 2023
 Prompt: Signed Distance Functions
+
+January 09, 2023
+Prompt: Plant
