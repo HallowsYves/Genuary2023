@@ -32,5 +32,5 @@ January 09, 2023
 Prompt: Plant
 
 January 10, 2023
-Prompt: Generative Music
+Prompt: Generative Music / I created an audio Visualizer
 
