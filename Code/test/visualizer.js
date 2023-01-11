@@ -35,7 +35,8 @@ console.log(bars);
 function animate() {
     ctx.clearRect(0,0, canvas.width, canvas.height);
     bars.forEach(function(bar){
-    })
+        bar.draw(ctx);
+    });
     requestAnimationFrame(animate);
 }
 animate();
