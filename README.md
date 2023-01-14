@@ -36,3 +36,12 @@ Prompt: Generative Music
 
 January 11, 2023
 Prompt: Suprematism
+
+January 12, 2023
+Prompt: Tesselation
+
+January 13, 2023
+Prompt: Something you’ve always wanted to learn
+
+January 14, 2023
+Prompt: Aesemic
