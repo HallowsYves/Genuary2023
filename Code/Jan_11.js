@@ -36,7 +36,4 @@ function draw() {
   rotate(100);
   rect(-40, 350, 260, 10);
   pop();
-  
-
-  
 }
