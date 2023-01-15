@@ -18,7 +18,7 @@ Prompt: Debug View
 
 January 06, 2023
 Prompt: Steal Like an Artist 
-Ref:https://i.pinimg.com/750x/3b/76/08/3b760858672de4d104e5ec17c78393b6.jpg
+[Reference](https://i.pinimg.com/750x/3b/76/08/3b760858672de4d104e5ec17c78393b6.jpg)
 
 January 07, 2023
 Prompt: Pallet Color from your favorite album cover
