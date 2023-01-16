@@ -10,38 +10,22 @@ function draw() {
   noStroke();
   
   push();
-  rotateZ(QUARTER_PI * frameCount * 0.01);
+  rotateY(QUARTER_PI * frameCount * 0.01);
+  rotateX(QUARTER_PI * frameCount * 0.01);
   texture(cam);
-  plane(400, 400);
+  box(300, 300, 300);
   pop();
   
   push();
-  rotateZ(-QUARTER_PI * frameCount * 0.01);
+  rotateY(-QUARTER_PI * frameCount * 0.01);
+  rotateX(-QUARTER_PI * frameCount * 0.01);
   texture(cam);
-  plane(300, 300);
-  pop();
-  
-  push();
-  rotateZ(QUARTER_PI * frameCount * 0.01);
-  texture(cam);
-  plane(200, 200);
-  pop();
-  
-  push();
-  rotateZ(-QUARTER_PI * frameCount * 0.01);
-  texture(cam);
-  plane(100, 100);
-  pop();
-  
-  push();
-  rotateZ(QUARTER_PI * frameCount * 0.01);
-  texture(cam);
-  plane(30, 30);
+  box(300, 300, 300);
   pop();
 }
 
   function keyPressed() {
     if (key === 's') {
-      saveGif('Jan_16', 5);
+      saveGif('Jan_16', 8);
     }
   }
