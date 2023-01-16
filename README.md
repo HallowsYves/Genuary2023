@@ -47,3 +47,6 @@ Prompt: Aesemic
 
 January 15, 2023
 Prompt: Sine Waves
+
+January 16, 2023
+Prompt: Reflection of a Reflection
