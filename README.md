@@ -46,4 +46,4 @@ January 14, 2023
 Prompt: Aesemic
 
 January 15, 2023
-Prompt: Sine
+Prompt: Sine Waves
