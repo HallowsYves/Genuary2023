@@ -50,3 +50,6 @@ Prompt: Sine Waves
 
 January 16, 2023
 Prompt: Reflection of a Reflection
+
+January 17, 2023
+Prompt: Grid in a Grid
