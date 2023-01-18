@@ -53,3 +53,6 @@ Prompt: Reflection of a Reflection
 
 January 17, 2023
 Prompt: Grid in a Grid
+
+January 18, 2023
+Prompt: Not a Grid
