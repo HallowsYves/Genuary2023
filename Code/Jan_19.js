@@ -2,7 +2,6 @@ let goofy;
 
 function setup() {
   createCanvas(800, 800);
-  // specify multiple formats for different browsers
   goofy = createVideo(['Max.mov', 'Max.webm']);
   goofy.loop();
   goofy.hide();
