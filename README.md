@@ -56,3 +56,6 @@ Prompt: Grid in a Grid
 
 January 18, 2023
 Prompt: Not a Grid
+
+January 19, 2023
+Prompt: Black and White
