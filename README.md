@@ -59,3 +59,6 @@ Prompt: Not a Grid
 
 January 19, 2023
 Prompt: Black and White
+
+January 20, 2023
+Prompt: Art Deco
