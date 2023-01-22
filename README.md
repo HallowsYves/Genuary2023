@@ -64,3 +64,6 @@ Prompt: Art Deco
 
 January 21, 2023
 Prompt: Persian Rug
+
+January 22, 2023
+Prompt: Shadows
